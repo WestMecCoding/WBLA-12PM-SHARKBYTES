@@ -1,0 +1,68 @@
+*{
+  /* font-family: 'League Script', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  padding:0;
+}
+:root {
+  --primary: #BE8868;
+  --secondary: #D5B8A1;
+  --tertiary: #E1D5CA;
+  --quaternary: #EDE2D9;
+}
+.site-container {
+  width:80%;
+  height:100%;
+  margin:auto;
+  box-shadow: 0 0 10px;
+}
+.text-center{
+  text-align: center;
+}
+.nav-item{
+margin-left:5vw;   
+font-size: 1.5vw;
+}
+ul{
+  display: inline-flex;
+  align-content: space-around;
+}
+li{
+  margin-right: 1vw;
+  list-style: none;
+}
+a{
+  font-size: 2vw;
+  text-decoration: none;
+}
+.primaryBGC {
+  background-color: var(--primary);
+}
+.secondaryBGC {
+  background-color: var(--secondary);
+}
+.tertiaryBGC {
+  background-color: var(--tertiary);
+}
+.quaternaryBGC {
+  background-color: var(--quaternary);
+}
+body {
+  margin:0;
+  padding:0;
+  background-color: var(--tertiary);
+}
+.site-container {
+  width:80%;
+  height:100%;
+  margin:auto;
+  box-shadow: 0 0 10px;
+  background-color: var(--tertiary);
+}
+
+.nav-item{
+  margin-left:5vw;
+  font-size: 1.5vw;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+}
