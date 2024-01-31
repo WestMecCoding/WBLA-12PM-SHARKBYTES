@@ -69,12 +69,8 @@ div#top-container {
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 20%;
-  /* filter: grayscale(95%); */
-  /* right: 40%; */
-  /* display: inline-block; */
-  /* display: flex; */
-  /* float: right; */
-  /* justify-content: center; */
+  /* border-image-repeat: url(assets/floralBorder2-3.png);
+  border-image-width:10%; */
 }
 .text-container {
   width: 30%;
