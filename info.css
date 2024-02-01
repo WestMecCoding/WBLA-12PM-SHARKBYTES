@@ -54,7 +54,11 @@ p {
   font-size: 2rem;
   color: black;
 }
-
+b{
+  white-space: none;
+  padding: 0;
+  margin: 0;
+}
 div#top-container {
   /* background-image: url(alvaro-cvg-mW8IZdX7n8E-unsplash.jpg); */
   width: 100%;
@@ -62,15 +66,13 @@ div#top-container {
   position: relative;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2vw;
 }
 #intro-img {
   height: auto;
   width: 25vw;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 20%;
-  /* border-image-repeat: url(assets/floralBorder2-3.png);
-  border-image-width:10%; */
 }
 .text-container {
   width: 30%;
@@ -82,7 +84,7 @@ div#top-container {
 }
 
 .hook {
-  color: white;
+  color: black;
   font-size: calc(0.6rem + 0.8vw);
   /* font-size: 1.5rem; */
 }
@@ -90,7 +92,7 @@ div#top-container {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
-  margin: 8rem;
+  margin: 1rem;
   margin-bottom: 0;
   padding: 1rem;
 }
@@ -108,10 +110,9 @@ div#top-container {
 }
 .row {
   width: 100%;
-  /* margin-top: auto; */
-  display: flex;
-  justify-content: space-evenly;
-  /* border: solid 1px black; */
+  margin-top: auto;
+   display: flex;
+  justify-content: space-evenly; 
 }
 
 ::-webkit-scrollbar {
@@ -138,11 +139,20 @@ div#top-container {
     margin-left: 0%;
     width: 50vw;
   }
+  #hook p{
+    display: block;
+    margin-bottom: 20vw;
+  }
 }
 @media (max-width: 768px) {
+ #hook p{
+    display: block;
+    margin-bottom: 20vw;
+  }
   #top-container {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30vw;
     /*justify-content: center;
     /* align-items: center; */
     /* display: block; */
@@ -151,10 +161,5 @@ div#top-container {
     width: 80%;
     height: 50%;
     display: block;
-  }
-  .text-container {
-    display: inline-block;
-    position: static;
-    width: 80%;
   }
 }
