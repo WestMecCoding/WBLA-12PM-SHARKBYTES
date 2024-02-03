@@ -1,13 +1,12 @@
 # Project Documentation for Joseph Lopotko
 
 ## Project Summary
-Samiranna Photography is a company catering to couples' wedding photos. The website maintains a classy theme, with the use of sleek elegant fonts. The color accent revolves around the color brown. The color brown symbolizes dependability and stability, which are the values of Samiranna Photography. "Our vision is to be the go-to local photography company for weddings and other significant life events,"
+Samiranna Photography is a company catering to couples' wedding photos. The website maintains a classy theme, using elegant fonts. The color accent revolves around the color brown. The color brown symbolizes dependability and stability, which are the values of Samiranna Photography. "Our vision is to be the go-to local photography company for weddings and other significant life events".
 
 I had the responsibility of designing the home page. The nav bar is built on bootstrap, utilizing bootstrap CSS styles to achieve a clean, modernistic look. I extracted the nav bar logo from the client request PDF. The buttons in the footer each lead to their appropriate social media website. The social media icons are from a bootstrap library of SVG icons.
 
-Lorem: Some information about the team project and my contributions 2paragraph
 ## Code Descriptions
-> Code Example 1: in the below code I did x to make y happen...
+> Code Example 1: I created a footer, giving padding from bootstrap's class styling. I wrapped buttons in <a> tags, each button having an href to a social media website. I found icons from bootstrap's SVG icon library and used the icons to represent each button's social media page.
 ```html
     <footer class="p-5">
         <h1>Follow Our Socials!</h1>
