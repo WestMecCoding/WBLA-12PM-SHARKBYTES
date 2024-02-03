@@ -34,7 +34,7 @@ I had the responsibility of designing the home page. The nav bar is built on boo
                   people and the event.
                 </p></div>
 ```
-> Code example 3: In the CSS below, I optimized the index page for mobile screens by styling the elements of the page's wrapper. I used @media to assign these styles for mobile resolution. I made sure there was no whitespace with the use of margin 0, padding 0, and overflow hidden.
+> Code example 3: In the CSS below, I optimized the index page for smaller screens by styling the elements of the page's wrapper. I used breakpoint styling, making sure there was no whitespace with the use of margin 0, padding 0, and overflow hidden.
 ```css
 @media (max-width:768px){
     .site-container{
